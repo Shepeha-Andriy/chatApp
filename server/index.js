@@ -30,7 +30,7 @@ async function start() {
 
     const io = socket(server, {
       cors: {
-        origin: "http://localhost:3000",
+        origin: "https://chatapp-as.netlify.app",
         credentials: true,
       },
     });
